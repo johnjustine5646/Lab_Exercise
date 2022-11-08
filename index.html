@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Programs</title>
+    <link rel="stylesheet" href="1234.css">
+  </head>
+<body>
+    <h1 style="text-align:center">Lab1:Exploring Tags in HTML</h1>
+    The <abbr title="World Health Organization">WHO</abbr> was founded in 1948<b>(1.abbrevation tag was used in this)</b>.
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA<b>(2.address tag)</b>
+        </address>
+        <article>
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!<b>(3.article tag and 4.h2 tag was used)</b></p>
+        </article>
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.<b>(aside tag was used)</b></p>
+</aside>
+<p>This is normal text - <b>and this is bold text</b>.(5.bold tag was used)</p>
+<ul>
+    <li>User <bdi>hrefs</bdi>: 60 points</li>
+    <li>User <bdi>jdoe</bdi>: 80 points</li>
+    <li>User <bdi>إيان</bdi>: 90 points</li>
+    <b>(6.ul and 7.li tags were used)</b>
+  </ul>
+  <bdo dir="rtl">
+    This text will go right-to-left<b>(8.bdo tag was used)</b>.
+    </bdo>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        <b>(9.blockquote tag was used)</b></blockquote>
+        <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.<b>(10.br tag was used)</b></p>
+        <button type="button">Click Me!</button>
+        <p><b>(11.button tag was used)</b></p>
+        <canvas id="myCanvas">
+            Your browser does not support the canvas tag.<b>(12.canvas tag was used)</b>
+            </canvas>
+            
+            <script>
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(0, 0, 80, 80);
+            </script>
+            <p><b>(13.script tag was used)</b></p>
+            <table>
+                <caption>Monthly savings</caption>
+                <tr>
+                  <th>Month</th>
+                  <th>Savings</th>
+                </tr>
+                <tr>
+                  <td>January</td>
+                  <td>$100</td>
+                </tr>
+              </table>
+              <p><b>(14.table tag,15.th tag,16.tr tag and 17.td tag was used)</b></p>
+              <html>
+                <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+                <p>The HTML <code>button</code> tag defines a clickable button.<b>(18.cite,19.code and 20.p tag was used)</b></p>
+
+                <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+                <table>
+                    <colgroup>
+                      <col span="2" style="background-color:red">
+                      <col style="background-color:yellow">
+                    </colgroup>
+                    <tr>
+                      <th>ISBN</th>
+                      <th>Title</th>
+                      <th>Price</th>
+                    </tr>
+                    <tr>
+                      <td>3476896</td>
+                      <td>My first HTML</td>
+                      <td>$53</td>
+                    </tr>
+                  </table>
+                  <ul>
+                    <li><data value="21053">Cherry Tomato</data></li>
+                    <li><data value="21054">Beef Tomato</data></li>
+                    <li><data value="21055">Snack Tomato</data></li>
+                    <b>(21.colgroup and 22.col tags are used)</b>
+                  </ul>
+                  <label for="browser"><b>(23.label tag,24.detalist,25.option tags were used)</b>Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+  <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+  <details>
+    <summary>Epcot Center<b>(27.summary tag and 28. details tag were used)</b></summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  <p><dfn>HTML<b>(29.defintion tag was used)</b></dfn> is the standard markup language for creating web pages.</p>
+  <dialog open>This is an open dialog window<b>(30.dialog tag was used)</b></dialog>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+   <dd></dd> White cold drink</dd>
+  </dl>
+  <p>You <em>have</em> to hurry up!</p>
+
+<p>We <em>cannot</em> live like this.</p>
+<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <p><b>(31.form, 32.fieldlist & 33.legend tags were used)</b></p>
+              <h1 style="text-align:center">Lab 2:Including Media in HTML Pages</h1>
+      <img src="airplane.jpg" width="500" length="1000">
+      <video width="320" height="240" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      <audio controls>
+        <source src="ppl.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <h1 style="text-align:center">Lab 3:Demonstration of HTML Tag Parameters</h1>
+      <p>1.Href attribute</p>
+      <a href="https://www.w3sschools.com">Visit W3schools</a>
+      <p>2.Source attribute-3.Width attribute-4.Height attribute</p>
+      <img src="airplane.jpg"width="500" length="1000">
+      <p>5.Alt attribute</p>
+      <img src="img_typo.jpg" alt="Girl with a jacket">
+      <h1 style="text-align:center">Lab 4:Implementation of Inline CSS</h1>
+      <p style="color:maroon;background-color: rgb(18, 122, 82);">This paragraph is made using in line css<br>
+        It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.
+
+        Above are a few examples of how the random paragraph generator can be beneficial. The best way to see if this random paragraph picker will be useful for your intended purposes is to give it a try. Generate a number of paragraphs to see if they are beneficial to your current project.
+        
+        If you do find this paragraph tool useful, please do us a favor and let us know how you're using it. It's greatly beneficial for us to know the different ways this tool is being used so we can improve it with updates. This is especially true since there are times when the generators we create get used in completely unanticipated ways from when we initially created them. If you have the time, please send us a quick note on what you'd like to see changed or added to make it better in the future.
+        
+        Frequently Asked Q</p>
+      <h1 style="text-align:center">Lab 5:Implementation of External CSS</h1>
+      <p class="container">This paragraph is made of external css<br>
+        Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are already flowing from their fingers.</p>
+      <h1 style="text-align:center">Lab 6:Styling using a .css file</h1>
+      <p class="container">This paragraph is styled using external css.<br>
+        Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are already flowing from their fingers.</p>
+</body>
+</html>
